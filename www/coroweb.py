@@ -11,6 +11,7 @@ from aiohttp import web
 
 from apis import APIError
 
+
 def get(path):
     '''
     Define decorator @get('/path')
